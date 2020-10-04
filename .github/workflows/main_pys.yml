@@ -35,4 +35,4 @@ jobs:
         app-name: 'pys'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1934de5aee474f1c94960352171a2ab2 }}
-        package: '.\myapp.zip'
+        package: '.\app.zip'
