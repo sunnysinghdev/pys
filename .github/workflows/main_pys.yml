@@ -20,9 +20,9 @@ jobs:
       with:
         python-version: '3.6'
 
-    - name: Install Python dependencies
+    - name: Install Python dependencies remove python 3
       run: |
-        python3 -m venv env
+        python -m venv env
         .\env\Scripts\activate
         pip install -r requirements.txt
 
