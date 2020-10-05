@@ -22,7 +22,7 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        python3 -m venv env
+        python -m venv env
         .\env\Scripts\activate
         pip install -r requirements.txt
 
@@ -35,4 +35,4 @@ jobs:
         app-name: 'pys'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_08bbb5783f654bab984642c0c0da9630 }}
-        package: '.\myapp.zip'
+        package: '.\app.zip'
