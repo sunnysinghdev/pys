@@ -25,7 +25,7 @@ SECRET_KEY = '34&r(m9gztp&40vn_%c^cti(-nmvi1w4m*v!9w(z&012z!_2y7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pys.azurewebsites.net']
 
 
 # Application definition
